@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+  padding: 0;
+  background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  }
+  #animal-photos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+   align-items: center;
+   background-color: #444444;
+    
+  }
+  #photo-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .animal-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+  }
